@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background: #DCDCDC;
+  font-family:sans-serif;
+  /* font-size:10px; */
+}
+
+.row{
+  display:flex;
+  width:90%;
+  margin: 0 auto;
+  background:#fff;
+  flex-direction:row;
+  justify-content:space-arround;
+  flex-flow:wrap;
+  
+}
+
+.NewRecovered,
+.TotalRecovered,
+.TotalConfirmed,
+.NewConfirmed,
+.NewDeaths,
+.TotalDeaths{
+  padding:20px;
+  text-align:center;
+  margin:0 auto;
+  font-size: 10px;
+}
+
+.NewConfirmed{
+  color:#34568B;
+  border-bottom:4px solid #34568B;
+}
+
+.TotalConfirmed{
+  color:DarkOrange;
+  border-bottom:4px solid DarkOrange;
+}
+
+.NewDeaths{
+  color:#FF6F61;
+  border-bottom:4px solid #FF6F61;
+}
+.TotalDeaths{
+  color:#DD4124;
+  border-bottom:4px solid #DD4124;
+}
+
+.TotalRecovered{
+  color:#6B5B95;
+  border-bottom:4px solid #6B5B95;
+}
+
+.NewRecovered{
+  color:#45B8AC;
+  border-bottom:4px solid #45B8AC;
+}
+
+@media screen and (max-width: 600px) {
+.NewRecovered h1,
+.TotalRecovered h1{
+  font-size:15px;
+ }
+}
+
+.global{
+  background:#fff;
+  padding-bottom:40px;
+  margin-top: 30px;
+}
+
+.header{
+  padding-top:20px;
+  font-size:20px;
+}
+.global span{
+  font-size: 15px;
+}
+
+.Loading{
+  padding-top: 150px;
+}
+.cp-text{ color: rgba(0,0,0,.7); text-shadow: 0 1px rgba(255, 255, 255, 0.1); font-size: 14px; margin-top:40px;}
